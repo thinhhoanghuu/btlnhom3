@@ -10,9 +10,9 @@ typedef struct
         char Time[50];        
         int  Student;
         
-}class; 
+}Class;
 
-void ClassInfo()
+ void ClassInfo()
 {
      int key;
      
