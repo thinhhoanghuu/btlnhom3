@@ -73,50 +73,6 @@ void add_class()
                               fprintf(fp, "%d", a[i].student_num);
    									fputc('\n', fp);
                               fclose(fp);
-
-                              /*fp=fopen("E:\\class.txt", "r");
-   											k=0;
-												do
-   												{
-      												a[i].class_name[k]=fgetc(fp);
-         											if (a[i].class_name[k]=='#')	break;
-                                          else k++;
-      											}	while (1);
-      										a[i].class_name[k]='\0';
-
-                                    k=0;
-												do
-   												{
-      												a[i].teacher[k]=fgetc(fp);
-         											if (a[i].teacher[k]=='#')	break;
-                                          else k++;
-      											}	while (1);
-      										a[i].teacher[k]='\0';
-
-                                    k=0;
-												do
-   												{
-      												a[i].room_no[k]=fgetc(fp);
-         											if (a[i].room_no[k]=='#')	break;
-                                          else k++;
-      											}	while (1);
-      										a[i].room_no[k]='\0';
-
-                                 	k=0;
-												do
-   												{
-      												a[i].time[k]=fgetc(fp);
-         											if (a[i].time[k]=='#')	break;
-                                          else k++;
-      											}	while (1);
-      										a[i].time[k]='\0';
-
-
-												fscanf(fp, "%s", str);
-         									fscanf(fp, "\n");
-                                    a[i].student_num=atoi(str);
-         						  	fclose(fp);   */
-
                            }
         						printf(" Do you want to continue (y/n): ");
         						fflush(stdin);
